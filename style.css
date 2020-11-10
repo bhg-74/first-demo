@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:link {color: rgb(41, 209, 139);}
+a:visited{color: rgb(224, 28, 215);}
+a:hover{color: teal;}
+a:active{color: rgb(228, 77, 228);}
+
+body{
+    background-color: rgb(250, 235, 215);
+}
+
+.image-align {
+    text-align: center;
+}
+
+ h1,h2,h3 {
+     color: rgba(38, 97, 235, 0.5);
+     font-style: italic;
+ }   
+
+  h1 {
+      word-spacing:2px;
+      letter-spacing: 1px;
+      text-decoration: underline dotted rgb(74, 89, 226);
+      
+ }
+
+.classifications {
+    list-style-type: disc;
+    color: rgb(170, 12, 12);
+}
+
+
+footer {
+    background-color:rgb(98, 207, 240);
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: rgb(155, 11, 11);
+}
